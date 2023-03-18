@@ -63,14 +63,14 @@ const MobileHeader: React.FC = () => {
             } flex flex-col gap-2 transition-all duration-100`}
           >
             <Image
-              src={"/images/remotelfav.png"}
+              src={"/images/remotelfav.PNG"}
               width={50}
               height={35}
               alt={"remotelfav"}
               objectFit="contain"
             />
             <Image
-              src={"/images/remotellogo.png"}
+              src={"/images/remotellogo.PNG"}
               width={150}
               height={25}
               alt={"remotellogo"}
