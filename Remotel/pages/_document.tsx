@@ -9,7 +9,7 @@ export default function Document() {
           name="description"
           content="Remotel - takarítás olcsón, airbnb-s lakások"
         />
-        <link rel="icon" type="image/x-icon" href="/images/remotelfav.png" />
+        <link rel="icon" type="image/x-icon" href="/images/remotelfav.PNG" />
         <meta charSet="utf-8" />
         <meta name="keywords" content="airbnb, takarítás, washing" />
         <meta name="robots" content="all" />
