@@ -82,7 +82,7 @@ const MobileHeader: React.FC = () => {
             defaultValue={locale}
             className={`${
               nav ? "opacity-60" : "opacity-100"
-            } mr-6 self-center rounded-lg p-2 text-[4vw] transition-all duration-100 focus-within:outline-none`}
+            } mr-6 self-center rounded-lg p-2 text-[3vw] transition-all duration-100 focus-within:outline-none`}
           >
             <option className="text-[3vw]" value="en">
               EN
