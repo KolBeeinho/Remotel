@@ -52,7 +52,7 @@ const Contact: React.FC = () => {
               {t.contacth4}
             </h4>
             <a
-              className="mt-2 flex whitespace-nowrap px-2 pb-4 text-[1.4rem] font-bold text-[#EE2449] underline sm:whitespace-normal md:text-[1.3rem]"
+              className="mt-2 flex whitespace-nowrap px-2 pb-4 text-[1.4rem] font-bold text-[#EE2449] underline hover:opacity-60 sm:whitespace-normal md:text-[1.3rem]"
               href="tel:+365011213124"
             >
               +36 30/000 0000&nbsp;
@@ -61,7 +61,7 @@ const Contact: React.FC = () => {
               Email
             </h4>
             <a
-              className="mt-2 flex whitespace-nowrap px-2 pb-2 text-[1.4rem] font-bold text-[#EE2449] underline sm:whitespace-normal md:text-[1.3rem]"
+              className="mt-2 flex whitespace-nowrap px-2 pb-2 text-[1.4rem] font-bold text-[#EE2449] hover:opacity-60 underline sm:whitespace-normal md:text-[1.3rem]"
               href="mailto:boditimi@gmail.com"
             >
               boditimi@gmail.com
