@@ -1,5 +1,5 @@
 export default {
-  contacth2: "Contact",
+  contacth2: "Kapcsolat",
   contacth3: "Remotel",
   contacth4: "Telefon",
   contactp:
