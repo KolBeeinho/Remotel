@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap");
+@layer base {
+  /* általános */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply font-Dosis;
+  }
+}
+@layer components {
+  /* A horgonyok picit feljebb visznek ezeknél az idk-nál*/
+  :is(#szolgaltatasok, #rolunk, #services, #aboutus) {
+    scroll-margin-top: 10em;
+  }
+  /* Blurbox */
+  .blurtab {
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 18px 27px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(7px);
+    border-radius: 28px;
+  }
+  .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 9px 8px rgba(255, 255, 255, 0.25);
+  }
+  /* Animáció Szolgáltatások tabnak */
+  .servicebg {
+    @apply transition duration-300 ease-in-out;
+  }
+  .servicebg:hover {
+    background: #544d70;
+    box-shadow: 10px 10px 18px 9px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 0px 22px #4c436d);
+    @apply scale-[1.05] transition duration-300 ease-in-out;
+  }
+  .lightservicebg {
+    background: #544d70;
+    @apply mx-4 scale-[1.05];
+  }
+  .lightservicebg.popup {
+    @apply mx-0 scale-100;
+  }
+  @media (min-width: 768px) {
+    .lightservicebg {
+      box-shadow: 10px 10px 18px 9px rgba(0, 0, 0, 0.25);
+      filter: drop-shadow(0px 0px 22px #4c436d);
+      margin: 0 3.5rem;
+      padding: 1rem 0;
+      border-radius: 60px;
+    }
+  }
+}
